@@ -1,0 +1,66 @@
+table{
+	margin:50px auto;
+	border-spacing: 0;
+}
+
+td {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: #2874A6;
+	cursor:default;
+	border:1px solid #DDDDDD;
+	font-weight: bold;
+	-webkit-user-select: none; 
+}
+
+.tran{
+	border-left:20px solid #990000;
+	border-right:0px solid transparent;
+	border-bottom:8px solid transparent;
+	border-top:8px solid transparent;
+	width:0px;
+	height:0px;
+	position: relative;
+	top: 8px;
+	left:12px;
+}
+
+.line{
+	width:2px;
+	height:20px;
+	background-color:#990000;
+	position: relative;
+	top:-5px;
+	left:12px;
+}
+
+td[data="0"]{
+	color: white;
+}
+
+td[data="1"]{
+	color: #009900;
+}
+
+td[data="2"]{
+	color: blue;
+}
+td[data="3"]{
+	color: red;
+}
+td[data="4"]{
+	color: #003399;
+}
+td[data="5"]{
+	color: #CC0000;
+}
+td[data="6"]{
+	color: #99FF99;
+}
+td[data="7"]{
+	color: #FF9933;
+}
+td[data="8"]{
+	color: #000000;
+}
